@@ -28,17 +28,10 @@
         display: flex;
         flex-wrap: wrap;
         width: 100%;
-        height: 100%;
-        padding-bottom: 10px;
     }
 
     #companyNameColumn {
         width: 80%;
-        height: 100%;
-    }
-    #companyNameContainer {
-        padding-left: 10px;
-        padding-top: 10px;
     }
     p {
         margin: 1px
@@ -46,15 +39,12 @@
     
     #companyLogoColumn {
         width: 20%;
-        height: 100%
     }
 
     #imageContainer {
         height: 50px;
         width: 50px;
         float: right;
-        margin-top: 10px;
-        margin-right: 10px;
     }
     img {
         max-width: 100%;
