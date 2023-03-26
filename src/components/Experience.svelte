@@ -1,10 +1,8 @@
 <script>
     export let companyName = ""
     export let imgUrl = ""
-    export let className = ""
     export let positionName = ""
     export let timeFrame = ""
-    export let description = ""
 </script>
 
 <div id="experienceContainer">
