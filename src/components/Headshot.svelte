@@ -25,21 +25,24 @@
 	}
 </script>
 
-
-
+<div id="container">
 {#if show}
-    
 	<div class="center" transition:spin={options}>
 		<div class="content">
             <img src="images/headshot.jpg" alt="headshot"/>
-            <p on:click={toggle}>Click here to close</p>
+            <h4 on:click={toggle}>Click here to close</h4>
         </div>
 	</div>
 {:else}
     <h4 on:click={toggle}>Curious to see what I look like? Click here</h4>
 {/if}
+</div>
 
 <style>
+	#container {
+		height: 30px;
+	}
+
 	.center {
 		/* This has a width and height of zero and is
 		   only used to center the content on the page. */
@@ -73,7 +76,8 @@
         text-decoration: underline;
         font-weight: normal;
         color: #383838;
-        margin-bottom: 30px;
         cursor: pointer;
+		margin-top: 20px;
+		/* margin: auto;  */
     }
 </style>

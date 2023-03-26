@@ -35,10 +35,10 @@
             <Experience  companyName="Peloton" imgUrl="images/peloton-logo.jpeg" positionName="Software Engineer"
                 timeFrame="Aug 2022 - present" />
             <div class="descriptionContainer">
-                <p>On Peloton's leaderboard team I work with services that receive more than 2 billion requests per day. Currently I am re-architecting our backend to make our services more resilient to surges in traffic at the beginning of large fitness classes and I am improving the scalability of Peloton's Apple Watch integration. I work with kubernetes, Kafka, Argo, datadog, python, and kotlin. Some career highlights include: </p>
+                <p>On Peloton's leaderboard team I work with services that receive more than 2 billion requests per day. Currently I am re-architecting our backend to make our services more resilient to surges in traffic at the beginning of large fitness classes and I am improving the scalability of Peloton's Apple Watch integration. I work with kubernetes, Kafka, Argo, datadog, python, and kotlin. Some of my career highlights include: </p>
                 <ul>
                     <li>Building and rolling out the micro-service that receives all of Peloton's leaderboard data.</li>
-                    <li>Testing, scaling, and maintaining the leaderboard for Peloton's <a href="https://www.onepeloton.com/blog/ridetogreatness/" target="_blank">Ride to Greatness</a>, an annual class where cyclers compete against each other in teams.</li>
+                    <li>Testing, scaling, and maintaining the leaderboard for Peloton's <a href="https://www.onepeloton.com/blog/ridetogreatness/" target="_blank">Ride to Greatness</a>, an annual class where cyclers compete in teams.</li>
                     <li>Making it to semi-finals of the software org's ping pong tournament.</li>
                 </ul>
             </div>
@@ -50,8 +50,8 @@
             <Experience  companyName="Columbia Journalism School" imgUrl="images/columbia-journalism.jpeg" positionName="Research Scholar"
                 timeFrame="Jul 2022 - Aug 2022" />
             <div class="descriptionContainer">
-                <p>I conducted a <a href="https://docs.google.com/presentation/d/1UKCU5uEox6_HDSsYcPAkeE-tX55S3_gkuROW4v4ZugI/edit#slide=id.p" target="_blank">data-driven investigation</a> of pedestrian safety in Mimai-Dade County, finding that Miami-Dade’s most disadvantaged zip codes are also some of its most deadly for pedestrians.</p>
-                <p>I also worked on a project to collect and analyze Twitter data: I made cron jobs to regularly pull data from the Twitter API and to store it in a graph database. I then wrote jupyter notebooks describing patterns in the giant social graph I had collected and shared them with teams of journalists. In my notebooks I experimented with nlp algorithms to classify tweets, graph algorithms to identify clusters of users, and creative ways of visualizing social networks.</p>
+                <p>I conducted a <a href="https://drive.google.com/file/d/1WRKum_9bb_sQHFYhV-8BvLE1P7VjFa_A/view?usp=share_link" target="_blank">data-driven investigation</a> into pedestrian safety in Mimai-Dade County, finding that Miami-Dade’s most disadvantaged zip codes are also some of its most deadly for pedestrians.</p>
+                <p>I also worked on a project to collect and analyze Twitter data: I made cron jobs to regularly pull data from the Twitter API and to store it in a graph database. Then I wrote jupyter notebooks describing patterns in the giant social graph I had collected and I shared them with teams of journalists. In my notebooks I experimented with nlp algorithms to classify tweets, graph algorithms to identify clusters of users, and creative ways of visualizing social networks.</p>
             </div>
         </div>
     {/if}
@@ -61,7 +61,7 @@
             <Experience  companyName="GrassRoutes Canvassing" imgUrl="images/grassroutes-logo.jpeg" positionName="Co-Founder and Chief Product Officer"
                 timeFrame="Sept 2019 - Nov 2021" />
             <div class="descriptionContainer">
-                <p>I worked with local </p>
+              <p><a href="https://docs.google.com/document/d/1fnqta0BnJDkPnsSZvVqRuiFReDBcAwhaep8Y7uckXFU/edit?usp=sharing" target="_blank">GrassRoutes</a> provided local politicians with software tools to run data-driven campaigns at low cost. As the Chief Product Officer I worked with local campaigns to design intuitive and useful product features, and I implemented the frontend of the app using React. GrassRoutes was used by 5+ campaigns in 3+ states during the Novemeber 2020 election. The app was acquired in the fall of 2021.</p>
             </div>
         </div>
     {/if}
@@ -70,34 +70,47 @@
         <div class="journ experienceDiv">
             <Experience  companyName="Social Science Research Council" imgUrl="images/ssrc-logo.jpeg"
                 timeFrame="Jan 2021 - May 2021" />
+            <div class="descriptionContainer">
+                <p>I worked as a research assistant for several projects that combined qualitative and quantitative approaches to understand policy's impact on human well-being. You can read my work in <a href="https://measureofamerica.org/california2021-22/" target="_blank">A Portrait of California 2021–2022</a> and <a href="http://measureofamerica.org/youth-disconnection-2021/" target="_blank">A Decade Undone: 2021 Update</a>.</p>
+            </div>
         </div>
     {/if}
 
     {#if selectedToggles.length == 0 || selectedToggles.includes("journ")}
         <div class="journ experienceDiv">
-            <Experience  companyName="Incite Lab at Columbia University" imgUrl="images/incite-logo.jpeg"
-                timeFrame="Jan 2022 - May 2022" />
+            <Experience  companyName="Incite Lab at Columbia University" imgUrl="images/incite-logo.jpeg" timeFrame="Jan 2022 - May 2022" />
+            <div class="descriptionContainer">
+                <p>I built an <a href="https://www.danieltadmon.com/public-sociology/therapymaps/" target="_blank">interactive webite</a> to visually convey the methodology and results of an academic article about geographic disparities in access to mental healthcare.</p>
+            </div>
         </div>
     {/if}
 
     {#if selectedToggles.length == 0 || selectedToggles.includes("engineering")}
         <div class="engineering experienceDiv">
-            <Experience  companyName="COMS 4111 Intro to Databases" imgUrl="images/columbia-logo.jpeg" positionName="Teaching Assistant"
-                timeFrame="Sep 2021 - Dec 2021" />
+            <Experience  companyName="COMS 4111 Intro to Databases" imgUrl="images/columbia-logo.jpeg" positionName="Teaching Assistant" timeFrame="Sep 2021 - Dec 2021" />
+            <div class="descriptionContainer">
+                <p>I mentored students as they completed a project to design a database schema for an application of their choice. This required me to consider the database design of many varied projects: how would I design Facebook's database? Or Yelp's? When I was originally a student in the class, I <a href="https://drive.google.com/file/d/1Z27ajnctm3tT4CgRvUm59ksRWx3h08-a/view?usp=share_link" target="_blank">designed a database</a> for an application that helped multi-state residents strategically decide which U.S. state they should vote in for national elections.</p>
+            </div>
         </div>
     {/if}
 
     {#if selectedToggles.length == 0 || selectedToggles.includes("engineering")}
         <div class="engineering experienceDiv">
-            <Experience  companyName="TheTake.ai" imgUrl="images/thetake-logo.jpeg" positionName="Software Engineering Intern"
-                timeFrame="Jun 2022 - Aug 2022" />
+            <Experience  companyName="TheTake.ai" imgUrl="images/thetake-logo.jpeg" positionName="Software Engineering Intern" timeFrame="Jun 2020 - Aug 2020" />
+            <div class="descriptionContainer">
+                <p>Have you ever wanted to buy the outfit of a TV or movie character? TheTake lets you shop shows and movies directly from your TV--their API powers <a href="https://www.lg.com/us/press-release/thetake-and-lg-introduce-ai-powered-shoppable-tv-at-ces" target="_blank">LG TV's</a> "Who What Where" feature. As an intern I built a generalized system to scrape data from clothing retailers' websites. The data I collected allowed the company to expand their database of clothes that could be matched to those in TV and movies scenes.</p>
+            </div>
+            
         </div>
     {/if}
 
     {#if selectedToggles.length == 0 || selectedToggles.includes("journ")}
         <div class="journ experienceDiv">
-            <Experience  companyName="Columbia University Center for Nuclear Studies" imgUrl="images/columbia-logo.jpeg" positionName="Research Fellow"
-                timeFrame="May 2018 - Dec 2018" />
+            <Experience  companyName="Columbia University Center for Nuclear Studies" imgUrl="images/columbia-logo.jpeg" positionName="Research Fellow" timeFrame="May 2018 - Dec 2018" />
+            <div class="descriptionContainer">
+                <p>I developed an <a href="https://k1project.columbia.edu/content/nuclear-diplomacy-simulation" target="_blank">interactive lesson plan</a> to help educators teach the geopolitical complications of nuclear proliferation. The lesson plan is used by high school teachers all across NYC, and it is taught in Columbia University's compulsory science class "Frontiers of Science."</p>
+                <p>I also built <a href="https://k1project.columbia.edu/content/nuclear-weapons-context" target="_blank">webpages</a> to attempt to visually convey the unconscionable scale and scope of nuclear weapons.</p>
+            </div>
         </div>
     {/if}
 
@@ -167,11 +180,20 @@
 
     /* Experience grid */
     .experienceDiv {
-        width: 360px;
-        margin-top: 0;
-        margin-bottom: 30px;
+        width: 100%;
         padding: 10px;
         padding-bottom: 16px;
+        margin-top: 0;
+        margin-bottom: 30px;
+        width: 360px;
+        /* height: 100% */
+    }
+
+    .experienceDivContainer {
+        margin-top: 0;
+        margin-bottom: 30px;
+        
+        
     }
 
     div {
