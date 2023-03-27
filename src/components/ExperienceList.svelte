@@ -51,7 +51,7 @@
                 timeFrame="Jul 2022 - Aug 2022" />
             <div class="descriptionContainer">
                 <p>I conducted a <a href="https://drive.google.com/file/d/1WRKum_9bb_sQHFYhV-8BvLE1P7VjFa_A/view?usp=share_link" target="_blank">data-driven investigation</a> into pedestrian safety in Mimai-Dade County, finding that Miami-Dade’s most disadvantaged zip codes are also some of its most deadly for pedestrians.</p>
-                <p>I also worked on a project to collect and analyze Twitter data: I made cron jobs to regularly pull data from the Twitter API and to store it in a graph database. Then I wrote jupyter notebooks describing patterns in the giant social graph I had collected and I shared them with teams of journalists. In my notebooks I experimented with nlp algorithms to classify tweets, graph algorithms to identify clusters of users, and creative ways of visualizing social networks.</p>
+                <p>I also worked on a project to study how political misinformation spreads on Twitter. I wrote jupyter notebooks describing patterns in a giant Twitter dataset that I scraped using the Twitter API. I experimented with nlp algorithms to classify tweets, graph algorithms to identify clusters of users, and creative ways of visualizing social networks.</p>
             </div>
         </div>
     {/if}
