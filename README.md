@@ -25,6 +25,21 @@ npm run dev
 npm run dev -- --open
 ```
 
+## Deploying
+
+Clean the current build directory
+
+```bash
+npm run clean
+```
+
+Build a new version and then deploy
+```bash
+npm run build
+npm run deploy
+```
+
+
 ## Building
 
 To create a production version of your app:
@@ -36,3 +51,4 @@ npm run build
 You can preview the production build with `npm run preview`.
 
 > To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+
