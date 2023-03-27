@@ -13,5 +13,7 @@
 <style>
     div {
         text-align: center;
+        width: 800px;
+        margin: auto;
     }
 </style>
