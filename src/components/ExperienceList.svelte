@@ -51,7 +51,7 @@
                 timeFrame="Jul 2022 - Aug 2022" />
             <div class="descriptionContainer">
                 <p>I conducted a <a href="https://drive.google.com/file/d/1WRKum_9bb_sQHFYhV-8BvLE1P7VjFa_A/view?usp=share_link" target="_blank">data-driven investigation</a> into pedestrian safety in Mimai-Dade County, finding that Miami-Dade’s most disadvantaged zip codes are also some of its most deadly for pedestrians.</p>
-                <p>I also worked on a project to study how political misinformation spreads on Twitter. I wrote jupyter notebooks describing patterns in a giant Twitter dataset that I collected from the Twitter API. I experimented with nlp algorithms to classify tweets, graph algorithms to identify clusters of users, and creative ways of visualizing social networks.</p>
+                <p>I also worked on a project to study how political misinformation spreads on Twitter. I analyzed patterns in a giant Twitter dataset that I collected from the Twitter API. I experimented with nlp algorithms to classify tweets, graph algorithms to identify clusters of users, and creative ways of visualizing social networks.</p>
             </div>
         </div>
     {/if}
@@ -80,7 +80,7 @@
         <div class="journ experienceDiv">
             <Experience  companyName="Incite Lab at Columbia University" imgUrl="images/incite-logo.jpeg" timeFrame="Jan 2022 - May 2022" />
             <div class="descriptionContainer">
-                <p>I built an <a href="https://www.danieltadmon.com/public-sociology/therapymaps/" target="_blank">interactive webite</a> to visually convey the methodology and results of an academic article about geographic disparities in access to mental healthcare.</p>
+                <p>I built an <a href="https://www.danieltadmon.com/public-sociology/therapymaps/" target="_blank">interactive webite</a> to visualize the methodology and results of an academic article about geographic disparities in access to mental healthcare.</p>
             </div>
         </div>
     {/if}
@@ -89,7 +89,7 @@
         <div class="engineering experienceDiv">
             <Experience  companyName="COMS 4111 Intro to Databases" imgUrl="images/columbia-logo.jpeg" positionName="Teaching Assistant" timeFrame="Sep 2021 - Dec 2021" />
             <div class="descriptionContainer">
-                <p>I mentored students as they completed a project to design a database schema for an application of their choice. This required me to consider the database design of many varied projects: how would I design Facebook's database? Or Yelp's? When I was originally a student in the class, I <a href="https://drive.google.com/file/d/1Z27ajnctm3tT4CgRvUm59ksRWx3h08-a/view?usp=share_link" target="_blank">designed a database</a> for an application that helped multi-state residents strategically decide which U.S. state they should vote in for national elections.</p>
+                <p>I mentored students as they completed a project to design a database schema for an application of their choice. Together we thought through how to design schemas for applications like Facebook, or Yelp. When I was originally a student in the class, I <a href="https://drive.google.com/file/d/1Z27ajnctm3tT4CgRvUm59ksRWx3h08-a/view?usp=share_link" target="_blank">designed a database</a> for an application that helped multi-state residents choose which U.S. state they should vote in to maximize impact in national elections.</p>
             </div>
         </div>
     {/if}
