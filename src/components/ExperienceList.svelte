@@ -35,7 +35,7 @@
             <Experience  companyName="Peloton" imgUrl="images/peloton-logo.jpeg" positionName="Software Engineer"
                 timeFrame="Aug 2022 - present" />
             <div class="descriptionContainer">
-                <p>On Peloton's leaderboard team I work with services that receive more than 2 billion requests per day. Currently I am re-architecting our backend to make our services more resilient to surges in traffic at the beginning of large fitness classes and I am improving the scalability of Peloton's Apple Watch integration. I work with kubernetes, Kafka, Argo, datadog, python, and kotlin. Some of my career highlights include: </p>
+                <p>On Peloton's leaderboard team I work with services that receive more than 2 billion requests per day. Currently I am re-architecting our backend to make our services more resilient to surges in traffic at the beginning of large fitness classes and I am improving the scalability of Peloton's Apple Watch integration. I work with kubernetes, Kafka, Argo, datadog, python, and kotlin. Some highlights have been: </p>
                 <ul>
                     <li>Building and rolling out the micro-service that ingests all of Peloton's leaderboard data.</li>
                     <li>Testing, scaling, and maintaining the leaderboard for Peloton's <a href="https://www.onepeloton.com/blog/ridetogreatness/" target="_blank">Ride to Greatness</a>, an annual class where cyclers compete in teams.</li>
@@ -51,7 +51,7 @@
                 timeFrame="Jul 2022 - Aug 2022" />
             <div class="descriptionContainer">
                 <p>I conducted a <a href="https://drive.google.com/file/d/1WRKum_9bb_sQHFYhV-8BvLE1P7VjFa_A/view?usp=share_link" target="_blank">data-driven investigation</a> into pedestrian safety in Mimai-Dade County, finding that Miami-Dade’s most disadvantaged zip codes are also some of its most deadly for pedestrians.</p>
-                <p>I also worked on a project to study how political misinformation spreads on Twitter. I wrote jupyter notebooks describing patterns in a giant Twitter dataset that I scraped using the Twitter API. I experimented with nlp algorithms to classify tweets, graph algorithms to identify clusters of users, and creative ways of visualizing social networks.</p>
+                <p>I also worked on a project to study how political misinformation spreads on Twitter. I wrote jupyter notebooks describing patterns in a giant Twitter dataset that I collected from the Twitter API. I experimented with nlp algorithms to classify tweets, graph algorithms to identify clusters of users, and creative ways of visualizing social networks.</p>
             </div>
         </div>
     {/if}
