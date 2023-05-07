@@ -35,8 +35,8 @@
             <Experience  companyName="Peloton" imgUrl="images/peloton-logo.jpeg" positionName="Software Engineer"
                 timeFrame="Aug 2022 - present" />
             <div class="descriptionContainer">
+                <p>On Peloton's leaderboard team I work with services that receive more than 2 billion requests per day. Currently I am re-architecting our backend to make our services more resilient to surges in traffic at the beginning of large fitness classes and I am improving the scalability of Peloton's Apple Watch integration. I work with kubernetes, kafka, redis, dynamodb, postgres, argo, datadog, python, kotlin, etc. Some highlights have been: </p>
                 <ul>
-                    <p>On Peloton's leaderboard team I work with services that receive more than 2 billion requests per day. Currently I am re-architecting our backend to make our services more resilient to surges in traffic at the beginning of large fitness classes and I am improving the scalability of Peloton's Apple Watch integration. I work with kubernetes, kafka, redis, dynamodb, postgres, argo, datadog, python, kotlin, etc. Some highlights have been: </p>
                     <li>Building and rolling out the micro-service that ingests all of Peloton's leaderboard data.</li>
                     <li>Testing, scaling, and maintaining the leaderboard for Peloton's <a href="https://www.onepeloton.com/blog/ridetogreatness/" target="_blank">Ride to Greatness</a>, an annual class where cyclers compete in teams.</li>
                     <li>Making it to semi-finals of the software org's ping pong tournament.</li>
