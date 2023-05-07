@@ -16,7 +16,7 @@
             toggleCode: "journ"
          },
     ]
-    let selectedToggles = []
+    let selectedToggles = ["engineering", "civic", "journ"]
 
 </script>
 
@@ -30,7 +30,7 @@
 </div>
 
 <div>
-    {#if selectedToggles.length == 0 || selectedToggles.includes("engineering")}
+    {#if selectedToggles.includes("engineering")}
         <div class="engineering experienceDiv">
             <Experience  companyName="Peloton" imgUrl="images/peloton-logo.jpeg" positionName="Software Engineer"
                 timeFrame="Aug 2022 - present" />
@@ -45,7 +45,7 @@
         </div>
     {/if}
 
-    {#if selectedToggles.length == 0 || selectedToggles.includes("journ")}
+    {#if selectedToggles.includes("journ")}
         <div class="journ experienceDiv">
             <Experience  companyName="Columbia Journalism School" imgUrl="images/columbia-journalism.jpeg" positionName="Research Scholar"
                 timeFrame="Jul 2022 - Aug 2022" />
@@ -56,7 +56,7 @@
         </div>
     {/if}
 
-    {#if selectedToggles.length == 0 || selectedToggles.includes("civic")}
+    {#if selectedToggles.includes("civic")}
         <div class="civic experienceDiv">
             <Experience  companyName="GrassRoutes Canvassing" imgUrl="images/grassroutes-logo.jpeg" positionName="Co-Founder and Chief Product Officer"
                 timeFrame="Sept 2019 - Nov 2021" />
@@ -66,7 +66,7 @@
         </div>
     {/if}
 
-    {#if selectedToggles.length == 0 || selectedToggles.includes("journ")}
+    {#if selectedToggles.includes("journ")}
         <div class="journ experienceDiv">
             <Experience  companyName="Social Science Research Council" imgUrl="images/ssrc-logo.jpeg"
                 timeFrame="Jan 2021 - May 2021" />
@@ -76,7 +76,7 @@
         </div>
     {/if}
 
-    {#if selectedToggles.length == 0 || selectedToggles.includes("journ")}
+    {#if selectedToggles.includes("journ")}
         <div class="journ experienceDiv">
             <Experience  companyName="Incite Lab at Columbia University" imgUrl="images/incite-logo.jpeg" timeFrame="Jan 2022 - May 2022" />
             <div class="descriptionContainer">
@@ -85,7 +85,7 @@
         </div>
     {/if}
 
-    {#if selectedToggles.length == 0 || selectedToggles.includes("engineering")}
+    {#if selectedToggles.includes("engineering")}
         <div class="engineering experienceDiv">
             <Experience  companyName="COMS 4111 Intro to Databases" imgUrl="images/columbia-logo.jpeg" positionName="Teaching Assistant" timeFrame="Sep 2021 - Dec 2021" />
             <div class="descriptionContainer">
@@ -94,7 +94,7 @@
         </div>
     {/if}
 
-    {#if selectedToggles.length == 0 || selectedToggles.includes("engineering")}
+    {#if selectedToggles.includes("engineering")}
         <div class="engineering experienceDiv">
             <Experience  companyName="TheTake.ai" imgUrl="images/thetake-logo.jpeg" positionName="Software Engineering Intern" timeFrame="Jun 2020 - Aug 2020" />
             <div class="descriptionContainer">
@@ -104,7 +104,7 @@
         </div>
     {/if}
 
-    {#if selectedToggles.length == 0 || selectedToggles.includes("journ")}
+    {#if selectedToggles.includes("journ")}
         <div class="journ experienceDiv">
             <Experience  companyName="Columbia University Center for Nuclear Studies" imgUrl="images/columbia-logo.jpeg" positionName="Research Fellow" timeFrame="May 2018 - Dec 2018" />
             <div class="descriptionContainer">
@@ -125,7 +125,7 @@
     }
 
     input[type="checkbox"] {
-        display: none;
+        /* display: none; */
     }
     label {
         background-color: white;
