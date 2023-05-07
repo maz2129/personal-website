@@ -80,7 +80,7 @@
         <div class="journ experienceDiv">
             <Experience  companyName="Incite Lab at Columbia University" imgUrl="images/incite-logo.jpeg" timeFrame="Jan 2022 - May 2022" />
             <div class="descriptionContainer">
-                <p>I built an <a href="https://www.danieltadmon.com/public-sociology/therapymaps/" target="_blank">interactive webite</a> to visualize the methodology and results of an academic article about geographic disparities in access to mental healthcare.</p>
+                <p>I built an <a href="https://www.therapymaps.us/" target="_blank">interactive webite</a> to visualize the methodology and results of an academic article about geographic disparities in access to mental healthcare.</p>
             </div>
         </div>
     {/if}
