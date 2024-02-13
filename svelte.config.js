@@ -1,19 +1,20 @@
+import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 import preprocess from 'svelte-preprocess';
 import adapter from '@sveltejs/adapter-static';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
- // Consult https://github.com/sveltejs/svelte-preprocess
- // for more information about preprocessors
- preprocess: preprocess(),
+	// Consult https://github.com/sveltejs/svelte-preprocess
+	// for more information about preprocessors
+	preprocess: [preprocess(), vitePreprocess({})],
 
- kit: {
-  adapter: adapter({
-    pages: 'build',
-    assets: 'build',
-    fallback: null
-  })
- }
+	kit: {
+		adapter: adapter({
+			pages: 'build',
+			assets: 'build',
+			fallback: null
+		})
+	}
 };
 
 export default config;
