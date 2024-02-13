@@ -27,7 +27,7 @@
 
 <div id="container">
 {#if show}
-	<div class="center" transition:spin={options}>
+	<div class="center" transition:spin|global={options}>
 		<div class="content">
             <img src="images/headshot.jpg" alt="headshot"/>
             <h4 on:click={toggle}>Click here to close</h4>
