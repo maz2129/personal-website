@@ -1,7 +1,7 @@
 <script>
-    import Intro from "../components/Intro.svelte"
-    import ExperienceList from "../components/ExperienceList.svelte"
-	import Headshot from "../components/Headshot.svelte"
+    import Intro from "../components/homepage/Intro.svelte"
+    import ExperienceList from "../components/homepage/ExperienceList.svelte"
+	import Headshot from "../components/homepage/Headshot.svelte"
 </script>
 
 <div>
